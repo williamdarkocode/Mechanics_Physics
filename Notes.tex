@@ -1,0 +1,133 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage{listings}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{setspace}
+\usepackage{graphicx}
+\graphicspath{ {./figures/} }
+
+
+\title{General Physics: Mechanics, Heat, and Sound}
+\author{William Darko}
+\date{Fall 2021}
+
+\pagenumbering{arabic}
+
+\begin{document}
+
+\maketitle
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Kinematics in 1D}
+\paragraph*{}
+Kinematics in 1 dimension refers to the motion of objects, on \textbf{1 spatial dimension},
+not necessarily in a one dimensional space. One can still observe 1 dimensional
+kinematics of objects in multidimensional spaces.
+
+\subsection{Reference Frames}
+\paragraph*{}
+Measurements of \textbf{position, distance, speed} must be with respect to 
+a \textbf{reference frame}.
+
+\subsection{Displacement and Distance}
+
+\subsubsection{Displacement}
+\paragraph*{}
+\textbf{Displacement} is the measure of \textbf{how far an object is from its initial (starting)
+position, and its final postion}. Measure of displacement isn't dependant on the actual path
+taken by the object, or the length of that path, all that matters is the starting position, and finishing position.
+
+Displacement is defined as:
+
+{
+    \centering
+    $\Delta x = x_2 - x_1$
+
+}
+where $x_2$ and $x_1$ are the final, and initial positions of the object, respectively. Displacement
+is represented as a vector; a quantity with a \textbf{magnitude, and direction}.
+
+\subsubsection{Distance}
+\paragraph*{}
+There's a difference between displacement, and distance. While displacement is 
+only concerned with the absolute difference between the initial and final position of an object,
+\textbf{distance} is concerned about the \textbf{absolute length of the path taken by the object}.
+Distance is \textbf{represented as a scalar quantity}.
+
+
+\subsection{Average Velocity, and Speed}
+
+\subsubsection{Average Speed}
+\paragraph*{}
+\textbf{Defined as:}
+
+{
+    \centering
+    \textbf{avg speed =} $\frac{\textrm{
+        \textbf{\textit{distance travelled}}}}{\textrm{\textbf{\textit{time elapsed}}}}$ = $\frac{\textbf{d}}{\textbf{$\Delta t$}}$
+
+}
+
+\subsubsection{Average Velocity}
+\paragraph*{}
+Velocity is the change in rate of change in position, thus we're concerned with 
+directional information; in what direction is our object moving. Thus average velocity 
+is defined as:
+
+{
+    \centering
+    \textbf{avg velocity =} $\frac{\textbf{\textit{displacement}}}{\textrm{\textbf{\textit{time elapsed}}}}$ = 
+    {$\frac{\textbf{$\Delta x$}}{\textbf{$\Delta t$}}$}
+
+}
+
+\subsubsection{Instantaneous Velocity}
+\paragraph*{}
+Instantaneous velocity is the \textbf{average velocity as the time elapsed becomes infinitely small}.
+In other words, as the limit of average velocity as time elapsed approaches 0:
+
+{
+    \centering
+    \textbf{\textit{v} = } $\textrm{\textbf{\textit{lim}}}_{\textrm{$\Delta t \rightarrow 0$}}$ 
+    \textbf{${\frac{\textrm{$\Delta x$}}{\textrm{$\Delta t$}}}$}
+
+}
+
+\subsection{Acceleration}
+\paragraph*{}
+Acceleration of an object is the \textbf{rate of change of that objects velocity}. Mathematically:
+
+{
+    \centering
+    \textbf{avg acceleration =} $\frac{\textbf{\textit{ROC of velocity}}}{\textrm{\textbf{\textit{time elapsed}}}}$ = 
+    \textbf{${\frac{\textrm{$\Delta v$}}{\textrm{$\Delta t$}}}$}
+
+} 
+
+\paragraph*{}
+acceleration is also a vector quantity. In a single spatial dimension we really only care about
+the sign. 
+
+\textbf{Negative acceleration} is acceleration in the negative direction as define by the spatial coordinate system.
+
+\textbf{Deceleration} occurs when acceleration is opposite in direction to velocity.
+
+\textbf{Instantaneous acceleration} is the average acceleration as the time elapsed becomes infinitely small.
+In other words, the limit of average velocity as the time interval approaches 0. 
+
+{
+    \centering
+    \textbf{\textit{a } = } $\textrm{\textbf{\textit{lim}}}_{\textrm{$\Delta t \rightarrow 0$}}$ 
+    \textbf{${\frac{\textrm{$\Delta v$}}{\textrm{$\Delta t$}}}$}
+
+}
+
+\end{document}
