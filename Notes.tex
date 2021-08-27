@@ -7,6 +7,7 @@
 \usepackage{amssymb}
 \usepackage{listings}
 \usepackage{setspace}
+\usepackage{relsize}
 \usepackage{graphicx}
 \graphicspath{ {./figures/} }
 
@@ -129,5 +130,113 @@ In other words, the limit of average velocity as the time interval approaches 0.
     \textbf{${\frac{\textrm{$\Delta v$}}{\textrm{$\Delta t$}}}$}
 
 }
+\newpage
+
+\subsection{Motion at constant acceleration}
+\paragraph*{}
+We know the average volocity of an object during a time interval \textbf{\textit{t}} is:
+
+{
+    \centering
+    $\mathlarger{\bar v = \frac{\Delta x}{\Delta t} = \frac{x_1 - x_0}{t_1 - t_0} = \frac{x_1 - x_0}{t}}$
+
+}
+\paragraph*{}
+in other words, ratio of displacement, to time elapsed. We also know that acceleration, assumed constant, is:
+
+{
+    \centering
+    $ \mathlarger{a = \frac{v_1 - v_0}{t}}$
+
+}
+where $v_1$, $v_0$, and $t$ are observed velocities and time elapsed, respectively. In other words,
+the acceleration when constant is the difference/change in two observed velocites, divided by the observed elapsed time.
+
+We also know that the average of any two numerical quantities is the sum of them divided by two. Thus, we can observe that the
+average velocity can be defined as:
+
+{
+    \centering
+    $\mathlarger{\bar v = \frac{v_1 + v_0}{2}}$
+
+}
+
+\paragraph*{}
+Now, combining the last three equations, we can see that the equation for the postion \textbf{\textit{x}} of a particle
+in rectilinear space is the initial position $x_0$ plus the average rate of change of position (average velocity) over a certain time period.
+Thus:
+
+{
+    \centering
+    $\mathlarger{x = x_0 + \bar vt}$
+
+    $\mathlarger{x = x_0 + (\frac{v_0 + v_1}{2})t}$
+
+    $\mathlarger{x = x_0 + (\frac{v_0 + v_0 + at}{2})}$
+
+    $\therefore$ $\mathlarger{x = x_0 + v_0t + \frac{1}{2}at^2}$
+
+    to get rid of $t$, we combine the equations to get:
+
+    $\mathlarger{v^2 = v_0^2 + 2a(x-x_0)}$
+
+}
+
+\paragraph*{}
+We can now solve any constant acceleration problem with the following equations:
+
+{
+    \centering
+    $\mathlarger{v = v_0 + at}$
+
+    $\mathlarger{x = x_0 + v_0t + \frac{1}{2}at^2}$
+
+    $\mathlarger{v^2 = v_0^2 + 2a(x-x_0)}$
+
+    $\mathlarger{\bar v = \frac{v_1 + v_0}{2}}$
+
+}
+
+\subsection{Falling objects}
+\paragraph*{}
+Near the earth's surface, all objects experience approximately the same acceleration
+due to the force of gravity; thus expereince motion with constant acceleration.
+
+In the absence of air resistance, like in a vacuum, objects fall with the same  acceleration.
+
+Acceleration due to earths gravity is approximately \textbf{\textit{g = 9.8 $m/s^2$}}
+
+With gravity introduced, all the equations we've developed for constant acceleration still hold; as 
+we observe linear motion on the \textbf{proper spatial \textit{y-axis}}, our equations become:
+
+{
+    \centering
+    $\mathlarger{v_y = v_{y0} + a_yt}$
+
+    $\mathlarger{y = y_0 + v_{y0}t + \frac{1}{2}a_yt^2}$
+
+    $\mathlarger{v_y^2 = v_{y0}^2 + 2a(y-y_0)}$
+
+    $\mathlarger{\bar v_y = \frac{v_{y1} + v_{y0}}{2}}$
+
+}
+
+where the \textbf{\textit{y}} subscript represents the quantities observed on the spatial \textbf{\textit{y-axis}}. Thus,
+our acceleration $\textrm{\textbf{a}}_\textrm{\textbf{\textit{y}}}$ here since we're observing free falling objects along the spatial \textbf{\textit{y-axis}}
+is:
+
+{
+    \centering
+    $\textrm{\textbf{a}}_\textrm{\textbf{\textit{y}}} = \textrm{\textbf{9.8
+    \textit{m/s}}}^\textrm{\textbf{2}}$
+
+}
+
+and negative, if moving in the negative direction along the coordinate system, as per the defintion of
+negative acceleration.
+
+
+
+
 
 \end{document}
