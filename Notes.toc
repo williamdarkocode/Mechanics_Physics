@@ -10,3 +10,9 @@
 \contentsline {subsection}{\numberline {1.4}Acceleration}{4}%
 \contentsline {subsection}{\numberline {1.5}Motion at constant acceleration}{5}%
 \contentsline {subsection}{\numberline {1.6}Falling objects}{6}%
+\contentsline {section}{\numberline {2}Kinematics in 2-Dimensions, and Vectors}{7}%
+\contentsline {subsection}{\numberline {2.1}Vectors and Scalars}{7}%
+\contentsline {subsection}{\numberline {2.2}Addition of vectors (graphical interpretation)}{7}%
+\contentsline {subsection}{\numberline {2.3}Vector subtraction and scalar multiplication}{8}%
+\contentsline {subsection}{\numberline {2.4}Algebraic formulae for computing vectors}{8}%
+\contentsline {subsection}{\numberline {2.5}Projectile Motion}{9}%
